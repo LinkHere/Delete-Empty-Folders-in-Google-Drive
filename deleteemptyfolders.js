@@ -1,5 +1,5 @@
 function deleteEmptyFolders() {
-  const PARENT_FOLDER_ID = "1y-wg3aTHMtMnYQL45uyWDq_w_gOOUiZj";
+  const PARENT_FOLDER_ID = "<parent-folder-id>";
   const parentFolder = DriveApp.getFolderById(PARENT_FOLDER_ID);
   const folders = parentFolder.getFolders();
   while (folders.hasNext()) {
